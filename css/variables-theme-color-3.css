@@ -1,3 +1,23 @@
+/*Zoom Function */
+input[type=checkbox] {
+  display: none;
+}
+
+.zoom img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(4);
+  cursor: zoom-out;
+}
+
+#zoomCheck input{
+	display:none;
+}
+
 /* line 8, ../sass/variables-theme-color-3.scss */
 a,
 a.default-hovered:active,

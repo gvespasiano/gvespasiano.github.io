@@ -7,8 +7,7 @@
 	<meta name="format-detection" content="telephone=no">
 	<title>Art Force</title>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-select.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600,300,800,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.css">
@@ -16,7 +15,13 @@
 	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 	<link rel="stylesheet" href="css/progress.css">
 	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css">
+
+    <!-- GV Add ons for lightbox(fancy) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -164,18 +169,27 @@
     <section class="section dafault-padding dividing-block sample-2" id="check">
       <div class="background">
 
-      </div>
-          <div class="col-xs-12">
+      </div> <div class="row justify-content-center">
+
+			 
 		  	<section class="section services">
 		            <div class="container">
 		              <div class="col-xs-12">
-		    			  <br id="intro"><br><br>
+		    			  <br id="intro"><br>
 		    			  <h2 style="color:red">Designing for B2B Lead Generation</h2>
 		    			  <br>
 		                <p>
-		                	In my current role at Art Force, I’ve had the opportunity to work on several web design projects. Helping a small company have a wide digital reach showed me the impact a website can have on business goals, and ultimately pushed me to join MCAD’s interactive design program. As I grow as a designer, I will continually look to the entrepreneurial lessons I’ve learned in my current position to create purposeful designs with measurable results. 
+		                	With over 37,000 pieces of artwork places in 43 states, Art Force’s mission is to be the premier provider of artwork services nationally. As a small growth venture, we needed our website to inform the marketplace and convince businesses to engage with us as their artwork provider. While working within their existing wordpress template, I was tasked with updating the website and launching the design of a new product offering.
+							
+							<h5>Tools:</h5>
+							<ul>
+								<li>Wordpress</li>
+								<li>Photoshop</li>
+								<li>HTML/CSS/JS</li>
+							</ul>
+							
 		                </p>
-		  			<br><br><br><br>
+		  			<br><br>
 		  			</div>
 		  		</div>
 		  	</section>
@@ -186,13 +200,14 @@
 
 		
 		<!-- About -->
-		<section class="section" id="about-us">
+		<section class="section  dafault-padding dividing-block sample-2" id="about-us">
 			<div class="background">
 			  <div class="layer visible-lg visible-md" style="background-color: #ffffff; left:50%"></div>
 			</div>
 			<div class="row table-row">
 				<div class="col-md-4 col-xs-12 table-box text-center table-block">
-					 <img src="images/af/afm1.jpg" height="333px">
+					<a data-fancybox="war-res" href="images/af/afm1.jpg"><img src="images/af/afm1.jpg" height="333px"></a>
+
 				</div>
 
 				<div class="col-md-4 col-sm-6 col-xs-12 table-box img-content-box" style="vertical-align: top;">
@@ -201,8 +216,8 @@
 					</div>
 					<div class="row">
 						<div class="col-xs-12 text-center t2 hello-box">
-						<br><br>	<h4>About Art Force</h4>
-							<br><p>From inspiration to installation, Art Force’s mission is to be the Premier Provider of Artwork Services. Located in the heart of the Northeast Minneapolis Arts District, we have distributed and manage over 36,000 pieces of artwork in 43 states to help organizations achieve their objectives through artwork and visual solutions.</p>
+						<br><br>	<h4>The Challenge:</h4>
+							<br><p>With over 37,000 pieces of artwork places in 43 states, Art Force’s mission is to be the premier provider of artwork services nationally. As a small growth venture, we needed our website to inform the marketplace and convince businesses to engage with us as their artwork provider. While working within their existing wordpress template, I was tasked with updating the website and launching the design of a new product offering.</p>
 
 						</div>
 					</div>
@@ -212,7 +227,7 @@
 					  <div class="layer" style="background-color: #ffffff;"></div>
 					</div>
 						<div class="about-text-box">
-							<h5>Site Goals</h5><br><br>
+							<br><h5>Site Goals</h5><br><br>
 							 <p class="big-text">1. Inform Potential Customers</p><br><br>
 							  <p class="big-text">2. Showcase Past Client Success</p><br><br>
 							 <p class="big-text">2. Generate Leads</p>
@@ -225,7 +240,7 @@
 		<!-- /About -->
 
 
-    <section class="section dafault-padding dividing-block sample-2" id="check">
+    <section class="section" id="check">
       <div class="background">
 
       </div>
@@ -316,7 +331,7 @@
 							<img src="images/af/sa1.png" class="img-fluid col-xs-12">
 							</div>
 	  		              <div class="col-xs-12 col-sm-6">
-<h4 id="badcss">s</h4>
+<h4 id="badcss">s</h4><div class="container">
 	  		    			  <h5 style="color:black">Initial Landing Page</h5>
 	  		    			  <br>
 	  		                <p>
@@ -380,10 +395,26 @@
 							<div class="col-xs-12 col-sm-8">
 								<img src="images/af/dfa4.jpg" class="img-fluid col-xs-12">
 						    </div>
-						</div>
-						
-	  		           
+						</div></div>
+								
+				<div class="container-fluid ">
+				<h4 id="badcss">s</h4>
+				
+<div class="row justify-content-center" id="textshorter">
+				<div class="col-xs-9">	
+				<h2 style="color:red">Key Takeaways</h2>
 
+				
+	  		        <h6>How It Could Be Improved</h6> 
+					<p>
+					 d
+					</p>
+					<h6>What I've Learned</h6> 
+					<p>
+					Helping a small company have a wide digital reach showed me the impact a website can have on business goals, and ultimately pushed me to join MCAD’s interactive design program. <strong>As I grow as a designer, I will continually look to the entrepreneurial lessons I’ve learned in my current position to create purposeful designs with measurable results.</strong>
+					</p>
+				</div>
+				</div>
 		<footer>
 
 
@@ -403,7 +434,7 @@
 
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true"></script>
-	<script src="js/bootstrap.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 	<script src="js/bootstrap-select.js"></script>
 	<script src="js/bootstrap-tabcollapse.js"></script> 
 	<script src="js/dzsparallaxer.js"></script> 
@@ -429,7 +460,7 @@
 	<script src="js/jquery.textillate.js"></script>
 	<script src="js/assets/jquery.fittext.js"></script>
 	<script src="js/assets/jquery.lettering.js"></script>
-	<script src="js/fancybox/source/jquery.fancybox.pack.js"></script>
+
 	<script src="js/main.js"></script>
 </body>
 </html>

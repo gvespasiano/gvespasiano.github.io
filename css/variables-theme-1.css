@@ -1,6 +1,13 @@
 #badcss{
 	color:white;
 }
+
+#textshorter{
+	text-align: center;
+}
+#textinner{
+	display: inline-block;
+}
 /* line 6, ../sass/variables-theme-1.scss */
 a,
 a.default-hovered:active,
