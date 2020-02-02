@@ -5,11 +5,35 @@ a.default-hovered.default-active,
 a.default-hovered.active {
   color: #400057;
 }
+.hidden{
+	display:none;
+}
+@media screen and (max-width: 600px) {
+	.hidesmall{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 610px) {
+	.hidelarge{
+		display:none;
+	}
+}
+	
+	
+}
 #black{
 	color:black;
 }
 #white{
 	color:white;
+}
+
+#scale{
+	max-height: 75%;
+}
+#scale2{
+	max-height: 15%;
 }
 /* line 12, ../sass/variables-theme-color-3.scss */
 a.default-hovered:hover,
