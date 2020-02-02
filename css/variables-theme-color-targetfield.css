@@ -1,4 +1,20 @@
-/* Lightbox CSS */
+/* Responsive Galleris - GV ADD */
+@media screen and (max-width: 600px) {
+	.hidesmall{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 610px) {
+	.hidelarge{
+		display:none;
+	}
+	#extrabody{
+
+	}
+}
+
+/*GV Lightbox CSS */
 .photo-gallery {
   color:#313437;
   background-color:#fff;

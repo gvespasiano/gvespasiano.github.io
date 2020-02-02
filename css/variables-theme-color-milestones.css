@@ -8,6 +8,9 @@ a.default-hovered.active {
 .hidden{
 	display:none;
 }
+
+
+/* Responsive Galleris - GV ADD */
 @media screen and (max-width: 600px) {
 	.hidesmall{
 		display:none;
@@ -20,8 +23,6 @@ a.default-hovered.active {
 	}
 }
 	
-	
-}
 #black{
 	color:black;
 }
