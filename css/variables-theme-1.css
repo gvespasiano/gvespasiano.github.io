@@ -1,3 +1,16 @@
+/* Responsive Galleris - GV ADD */
+@media screen and (max-width: 600px) {
+	.hidesmall{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 610px) {
+	.hidelarge{
+		display:none;
+	}
+}
+
 #badcss{
 	color:white;
 }
