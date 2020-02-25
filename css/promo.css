@@ -529,7 +529,7 @@ footer {
 
 /* line 494, ../sass/promo.scss */
 .element-item {
-  width: 33.33%;
+  width: 50%;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 494, ../sass/promo.scss */
@@ -544,10 +544,28 @@ footer {
   }
 }
 
+
+
+
+  /*GV Customs - Hiding Golf App*/
+@media (max-width: 767px) {
+#fullwid{
+	display:none;
+}
+}
+#fullwid{
+    width: 100%;
+}
+@media (min-width: 767px) {
+	#smalltilt{
+		display:none;
+	}
+}
+
 @media (min-width: 992px) {
   /* line 506, ../sass/promo.scss */
   .firefox .portfolio .element-item {
-    width: 33.33%;
+    width: 50%;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
